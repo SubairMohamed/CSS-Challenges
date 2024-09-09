@@ -1,0 +1,23 @@
+:root {
+    --bg-white: #ffffff;
+    --bg-green: #008000;
+    --bg-white: #ff0000;
+    --height: 400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flag {
+    height: var(--height);
+    width: calc(400px * 2 / 1.5);
+    background: var(--bg-green);
+    margin: 2em auto;
+    display: flex;
+}
+
+.stripe {
+    flex-grow: 1;
+}
