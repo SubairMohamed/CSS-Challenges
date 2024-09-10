@@ -14,6 +14,11 @@ html, body {
 h1::after {
     content: "";
     animation: 6s swap infinite;
+    background: blue;
+    color: white;
+    padding: .5rem .2rem;
+    border-radius: 10px;
+    margin-left: .5rem;
 }
 
 @keyframes swap {
