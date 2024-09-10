@@ -12,5 +12,28 @@ html, body {
 
 
 h1::after {
-    content: " MERN";
+    content: "";
+    animation: 6s swap infinite;
+}
+
+@keyframes swap {
+    0% {
+        content: " MERN Stack";
+    }
+
+    25% {
+        content: " Coding"; 
+    }
+
+    50% {
+        content: " Web Develepment"; 
+    }
+
+    75% {
+        content: " Graphic Design"; 
+    }
+
+    100% {
+        content: " MERN Stack";
+    }
 }
