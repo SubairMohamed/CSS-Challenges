@@ -4,3 +4,14 @@
     --red: #ef5252;
     --orange: #ffa500;
 }
+
+* { 
+    margin: 0;
+    padding: 0;
+} 
+
+.circle-gray {
+    background: var(--darkGray);
+    width: 200px;
+    height: 200px;
+}
