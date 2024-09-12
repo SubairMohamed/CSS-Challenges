@@ -23,12 +23,15 @@ body {
 
 .white {
     background: var(--bg-white);
+    height: 50%;
 }
 
 .red {
     background: var(--bg-red);
+    height: 50%;
 }
 
 .green {
     background: var(--bg-green);
+    height: 50%;
 }
