@@ -14,4 +14,5 @@
     height: var(--height);
     width: calc(var(--height) * 1.5);
     background: burlywood;
+    margin: 2em auto;
 }
