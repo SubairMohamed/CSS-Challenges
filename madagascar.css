@@ -10,9 +10,25 @@
     padding: 0;
 }
 
+body {
+    background: gray;
+}
+
 .flag-madagascar {
     height: var(--height);
     width: calc(var(--height) * 1.5);
     background: burlywood;
     margin: 2em auto;
+}
+
+.white {
+    background: var(--bg-white);
+}
+
+.red {
+    background: var(--bg-red);
+}
+
+.green {
+    background: var(--bg-green);
 }
