@@ -9,3 +9,9 @@
     margin: 0;
     padding: 0;
 }
+
+.flag-madagascar {
+    height: var(--height);
+    width: calc(var(--height) * 1.5);
+    background: burlywood;
+}
