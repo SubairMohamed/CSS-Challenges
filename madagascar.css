@@ -2,7 +2,7 @@
     --bg-white: #ffffff;
     --bg-green: #008000;
     --bg-red: #ff0000;
-    --height: 150px;
+    --height: 300px;
 }
 
 * {
@@ -23,20 +23,19 @@ body {
     display: flex;
 }
 
+
 .white {
     background: var(--bg-white);
-    height: var(--height);
     width: calc(var(--height) / 2);
 }
 
 .red {
     background: var(--bg-red);
-    height: var(--height);
-    width: calc(var(--height) / 2);
+    width: var(--height);
+    height: calc(var(--height) / 2);
 }
 
 .green {
     background: var(--bg-green);
-    height: var(--height);
-    width: calc(var(--height) / 2);
+    height: calc(var(--height) / 2);
 }
