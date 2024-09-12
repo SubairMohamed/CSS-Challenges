@@ -19,19 +19,24 @@ body {
     width: calc(var(--height) * 1.5);
     background: burlywood;
     margin: 2em auto;
+
+    display: flex;
 }
 
 .white {
     background: var(--bg-white);
-    height: 50%;
+    height: var(--height);
+    width: calc(var(--height) / 2);
 }
 
 .red {
     background: var(--bg-red);
-    height: 50%;
+    height: var(--height);
+    width: calc(var(--height) / 2);
 }
 
 .green {
     background: var(--bg-green);
-    height: 50%;
+    height: var(--height);
+    width: calc(var(--height) / 2);
 }
