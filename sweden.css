@@ -9,3 +9,9 @@
     padding: 0;
 }
 
+.sweden-flag {
+    height: var(--height);
+    width: calc(var(--height) * 3 / 2);
+    background: var(--bluelight);
+    margin: 2em auto;
+}
