@@ -1,6 +1,6 @@
 :root {
     --bluelight: #136ed6;
-    --yellow: yellow;
+    --yellow: #ffff00;
     --height: 400px;
 }
 
@@ -14,4 +14,10 @@
     width: calc(var(--height) * 3 / 2);
     background: var(--bluelight);
     margin: 2em auto;
+}
+
+.cross-one {
+    width: calc(var(--height) * 3 / 16);
+    height: calc(var(--height) * 8 / 8);
+    background: var(--yellow);
 }
