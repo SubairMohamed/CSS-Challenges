@@ -1,6 +1,6 @@
 :root {
     --white: #ffffff;
-    --hw: 200px;
+    --hw: 400px;
 }
 
 * {
@@ -17,10 +17,18 @@
     flex-direction: row;
     justify-content: center;
     align-items: center; 
+    position: relative;
 }
 
 .cross-one {
     height: calc(var(--hw) * 3/16);
     width: calc(var(--hw) * 5/8);
     background: var(--white);
+}
+
+.cross-two {
+    height: calc(var(--hw) * 5/8);
+    width: calc(var(--hw) * 3/16);
+    background: var(--white);
+    position: absolute;
 }
