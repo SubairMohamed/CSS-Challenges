@@ -14,6 +14,10 @@
     width: calc(var(--height) * 3 / 2);
     background: var(--bluelight);
     margin: 2em auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cross-one {
@@ -21,3 +25,9 @@
     height: calc(var(--height) * 3 / 16);
     background: var(--yellow);
 }
+
+/* .cross-two {
+    width: calc(var(--height) * 3 / 16);
+    height: calc(var(--height) * 13 / 16);
+    background: var(--yellow);
+} */
