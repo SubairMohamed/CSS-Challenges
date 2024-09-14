@@ -18,6 +18,10 @@ body {
     width: calc(var(--height) * 3/2); 
     background: var(--white);
     margin: 2em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle-brown {
