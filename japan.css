@@ -1,6 +1,6 @@
 :root {
    --white: #ffff; 
-   --brown: brown; 
+   --brown: #a52a2a; 
    --height: 400px;
 }
 
@@ -21,5 +21,7 @@ body {
 }
 
 .circle-brown {
-    
+    height: 200px;
+    width: 200px;
+    background: var(--brown);
 }
