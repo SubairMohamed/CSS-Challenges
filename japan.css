@@ -15,7 +15,7 @@ body {
 
 .japan-flag {
     height: var(--height);
-    width: calc(var(--height) * 3/2); 
+    width: calc(var(--height) * 3 / 2); 
     background: var(--white);
     margin: 2em auto;
 
