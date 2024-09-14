@@ -1,4 +1,11 @@
 :root {
     --bluelight: #136ed6;
     --yellow: yellow;
+    --height: 400px;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
