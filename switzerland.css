@@ -14,3 +14,9 @@
     background: red;
     margin: 2em auto;
 }
+
+.cross-one {
+    height: calc(var(--hw) * 3/16);
+    width: calc(var(--hw) * 5/8);
+    background: var(--white);
+}
