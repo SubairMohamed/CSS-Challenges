@@ -20,7 +20,11 @@ body {
     background: burlywood;
     margin: 2em auto;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
+}
+
+.stripe {
+    flex-grow: 1;
 }
 
 .orange {
