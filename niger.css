@@ -19,6 +19,8 @@ body {
     width: calc(var(--hw) * 3 / 2);
     background: burlywood;
     margin: 2em auto;
+    display: flex;
+    /* flex-direction: column; */
 }
 
 .orange {
