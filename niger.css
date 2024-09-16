@@ -2,7 +2,7 @@
     --white: #ffff;
     --orange: #d15e12;
     --green: #36aa36;
-    --hw: 150px;
+    --hw: 400px;
 }
 
 * {
@@ -44,8 +44,8 @@ body {
 
 .circle-orange {
     background: var(--orange);
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
 }
 
