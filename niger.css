@@ -39,6 +39,13 @@ body {
    background: var(--white);
 }
 
+.circle-orange {
+    background: var(--orange);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
 .green {
    width: calc(var(--hw) * 3 / 2);
    height: calc(var(--hw) * 1 / 3);
