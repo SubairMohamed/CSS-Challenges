@@ -28,7 +28,13 @@ body {
 }
 
 .white {
-    width: calc(var(--hw) * 3 / 2);
+   width: calc(var(--hw) * 3 / 2);
    height: calc(var(--hw) * 1 / 3);
    background: var(--white);
+}
+
+.green {
+   width: calc(var(--hw) * 3 / 2);
+   height: calc(var(--hw) * 1 / 3);
+   background: var(--green);
 }
