@@ -11,3 +11,8 @@
 body {
     background: var(--bodyground);
 }
+
+.github {
+    background: var(--background);
+    max-width: calc(400px * 3 / 2);
+}
