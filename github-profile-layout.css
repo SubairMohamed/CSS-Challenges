@@ -14,5 +14,11 @@ body {
 
 .github {
     background: var(--background);
-    max-width: calc(400px * 3 / 2);
+    height: 400px;
+    max-width: calc(400px * 3 / 3);
+    margin: 2em auto;
+}
+
+img {
+    width: 50%;
 }
