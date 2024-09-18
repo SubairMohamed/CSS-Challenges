@@ -23,6 +23,13 @@ img {
     width: 350px;
 }
 
+.github-title {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 1rem;
+}
+
 .title {
     font-size: 2rem;
     font-weight: bolder;
