@@ -72,5 +72,5 @@ img {
 
 .btn:hover {
     cursor: pointer;
-    border: 1px solid gray;
+    border: 1px solid var(--profile-color);
 }
