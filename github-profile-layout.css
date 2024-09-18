@@ -76,4 +76,5 @@ img {
 .btn:hover {
     cursor: pointer;
     background: var(--btn-bg-hover);
+    border: 1px solid var(--btn-border-hover);
 }
