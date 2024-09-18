@@ -5,6 +5,8 @@
     --profile-color: #c9d1d9;
     --profile-img-border: #2e343b;
     --btn-bg: #21262d;
+    --btn-bg-hover: #30363d;
+    --btn-border: #373b43;
 }
 
 * {
