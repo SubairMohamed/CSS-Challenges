@@ -63,7 +63,7 @@ img {
 
 .btn {
     font-size: 1.4rem;
-    border: none;
+    border: 1px solid var(--btn-border);
     border-radius: 6px;
     color: var(--profile-color);
     background: var(--btn-bg);
@@ -75,5 +75,5 @@ img {
 
 .btn:hover {
     cursor: pointer;
-    border: 1px solid var(--profile-color);
+    background: var(--btn-bg-hover);
 }
