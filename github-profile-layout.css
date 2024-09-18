@@ -47,8 +47,9 @@ img {
 }
 
 .para {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
+    text-transform: capitalize;
     opacity: 0.6;
 }
 
