@@ -4,6 +4,8 @@
     --font-main: "Noto Sans", sans-serif;
     --profile-bg: #0d1117;
     --profile-color: #c9d1d9;
+    --profile-img-border: #2e343b;
+    --btn-bg: #21262d;
 }
 
 * {
