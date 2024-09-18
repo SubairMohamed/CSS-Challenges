@@ -55,7 +55,7 @@ img {
     font-family: var(--font-main);
     font-weight: 400;
     font-size: 1rem;
-    color: var(--profile-color);
+    color: var(--font-sub-title);
 }
 
 .para {
