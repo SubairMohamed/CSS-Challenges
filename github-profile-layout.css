@@ -25,6 +25,7 @@ body {
     max-width: 400px;
     background: var(--profile-bg);
     margin: 2em auto;
+    border-radius: 5px;
 }
 
 .wrap-github {
@@ -50,11 +51,14 @@ img {
 }
 
 .sub-title {
+    font-family: var(--font-main);
+    font-weight: 400;
     font-size: 1rem;
     color: var(--profile-color);
 }
 
 .para {
+    font-family: var(--font-main);
     font-size: 1.3rem;
     color: var(--profile-color);
     text-transform: capitalize;
