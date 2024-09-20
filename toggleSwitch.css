@@ -38,3 +38,7 @@ label {
 .toggle-input {
     display: none;
 }
+
+.toggle-input:checked ~ .toggle-switch {
+    transform: translateX(calc(100px - 40px));
+}
