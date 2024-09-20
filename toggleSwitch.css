@@ -4,3 +4,7 @@
     --backgroundBody: #892e2e;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
