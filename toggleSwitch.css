@@ -34,3 +34,7 @@ label {
     background: var(--grayLight);
     border-radius: 50%;
 }
+
+.toggle-input {
+    display: none;
+}
