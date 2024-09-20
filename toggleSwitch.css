@@ -12,3 +12,10 @@
 body {
     background: var(--backgroundBody);
 }
+
+.toggle-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
