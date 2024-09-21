@@ -1,0 +1,11 @@
+:root {
+    --progress-bar: #aba5a5;
+    --stage-1: 25%;
+    --stage-2: 50%;
+    --stage-3: 75%;
+    --stage-4: 100%;
+    --stage-bg-1: #5e5ef6;
+    --stage-bg-2: #5ed3f6;
+    --stage-bg-3: #5ef6a8;
+    --stage-bg-4: #dce171;
+}
