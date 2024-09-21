@@ -9,3 +9,8 @@
     --stage-bg-3: #5ef6a8;
     --stage-bg-4: #dce171;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
