@@ -31,9 +31,32 @@
     /* width: 20%;
     background: var(--stage-bg-1); remove when you make stages*/
     border-radius: 20px;
+    animation: swap 10s infinite;
 }
 
-.stage-1 {
+@keyframes swap {
+    25% {
+      background: var(--stage-bg-1);
+      width: var(--stage-1);
+    }
+
+    50% {
+        background: var(--stage-bg-2);
+        width: var(--stage-2);
+      }
+
+    75% {
+        background: var(--stage-bg-3);
+        width: var(--stage-3);
+      }
+
+    100% {
+        background: var(--stage-bg-4);
+        width: var(--stage-4);
+      }
+}
+
+/* .stage-1 {
     background: var(--stage-bg-1);
     width: var(--stage-1);
 }
@@ -51,4 +74,5 @@
 .stage-4 {
     background: var(--stage-bg-4);
     width: var(--stage-4);
-}
+} */
+
