@@ -15,6 +15,11 @@
     padding: 0;
 }
 
+.container {
+    width: 80%;
+    margin: 10em auto;
+}
+
 .progress-bar {
     height: 40px;
     background: var(--progress-bar);
