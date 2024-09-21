@@ -25,3 +25,10 @@
     background: var(--progress-bar);
     border-radius: 20px;
 }
+
+.prog-status {
+    height: 40px;
+    width: 50%;
+    background: var(--stage-bg-1);
+    border-radius: 20px;
+}
