@@ -28,7 +28,7 @@
 
 .prog-status {
     height: 40px;
-    width: 50%;
+    width: 40%;
     background: var(--stage-bg-1);
     border-radius: 20px;
 }
