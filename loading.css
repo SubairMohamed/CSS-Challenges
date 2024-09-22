@@ -1,0 +1,9 @@
+:root {
+    --border-bg: #808080;
+    --load-bg: #d32a2aae;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
