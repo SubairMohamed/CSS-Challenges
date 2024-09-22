@@ -21,7 +21,7 @@
     border: 1em solid var(--border-bg);
     border-radius: 50%;
     border-top: 1em solid var(--load-bg);
-    animation: spin 1s infinite;
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
@@ -29,3 +29,8 @@
        transform: rotate(360deg);
     }
 }
+
+/* ease: start out slowly and ends slowly
+infinite: loop 
+linear: same speed
+*/
