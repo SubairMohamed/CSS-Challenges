@@ -6,6 +6,7 @@
     --bg-gradient-4: #ff6a00cf;
     --bg-border: #808080;
     --color-text: #ffffff;
+    --bg-live: #cf4242;
 }
 
 *  {
@@ -60,6 +61,19 @@ body {
 
 .girl-list {
     list-style: none;
+}
+
+.girl-link {
+    text-decoration: none;
+}
+
+.girl-link span {
+    font-size: 2.5rem;
+    background: var(--bg-live);
+    color: var(--color-text);
+    text-transform: capitalize;
+    border-radius: 8px;
+    padding: .2rem .6rem;
 }
 
 .girl-img {
