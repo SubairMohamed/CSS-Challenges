@@ -1,9 +1,9 @@
 :root {
     --bg-body: #000;
-    --bg-gradient: #dc9a20cd;
-    --bg-gradient: #1212a8ab;
-    --bg-gradient: #b4155fdf;
-    --bg-gradient: #ff6a00cf;
+    --bg-gradient-1: #dc9a20cd;
+    --bg-gradient-2: #1212a8ab;
+    --bg-gradient-3: #b4155fdf;
+    --bg-gradient-4: #ff6a00cf;
 }
 
 *  {
@@ -26,5 +26,6 @@ html {
 .boy-img {
   width: 150px;
   border-radius: 50%;
+  border: 6px solid var(--bg-gradient-3);
 }
 
