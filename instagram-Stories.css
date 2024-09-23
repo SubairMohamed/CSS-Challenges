@@ -20,5 +20,6 @@ body {
 }
 
 .boy-img {
-  width: 200px;
+  width: 150px;
+  border-radius: 50%;
 }
