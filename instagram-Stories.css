@@ -1,4 +1,5 @@
 :root {
+    --bg-body: #000;
     --bg-gradient: #dc9a20cd;
     --bg-gradient: #1212a8ab;
     --bg-gradient: #b4155fdf;
@@ -12,4 +13,12 @@
 
 html {
     font-size: 62.5%;
+}
+
+body {
+  background: var(--bg-body);
+}
+
+.boy-img {
+  width: 200px;
 }
