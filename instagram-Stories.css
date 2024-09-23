@@ -50,6 +50,12 @@ body {
 
 /* ends boy */
 
+.girl-avater {
+    font-size: 3rem;
+    color: var(--color-text);
+    text-transform: capitalize;
+}
+
 .girl-list {
     list-style: none;
 }
@@ -61,6 +67,12 @@ body {
 }
 
 /* ends girl */
+
+.men-avater {
+    font-size: 3rem;
+    color: var(--color-text);
+    text-transform: capitalize;
+}
 
 .men-list {
     list-style: none;
