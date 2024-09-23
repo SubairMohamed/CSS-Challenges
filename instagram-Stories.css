@@ -29,3 +29,26 @@ html {
   border: 6px solid var(--bg-gradient-3);
 }
 
+/* ends boy */
+
+.girl-list {
+    list-style: none;
+}
+
+.girl-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid var(--bg-gradient-3);
+}
+
+/* ends girl */
+
+.men-list {
+    list-style: none;
+}
+
+.men-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid var(--bg-gradient-3);
+}
