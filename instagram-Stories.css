@@ -5,6 +5,7 @@
     --bg-gradient-3: #b4155fdf;
     --bg-gradient-4: #ff6a00cf;
     --bg-border: #808080;
+    --color-text: #ffffff;
 }
 
 *  {
@@ -16,9 +17,9 @@ html {
     font-size: 62.5%;
 }
 
-/* body {
+body {
   background: var(--bg-body);
-} */
+}
 
 .container {
     height: 100vh; 
@@ -27,6 +28,14 @@ html {
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+/* ends parent */
+
+.boy-avater {
+    font-size: 3rem;
+    color: var(--color-text);
+    text-transform: capitalize;
 }
 
 .boy-list {
