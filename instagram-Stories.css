@@ -15,11 +15,16 @@ html {
     font-size: 62.5%;
 }
 
-body {
+/* body {
   background: var(--bg-body);
+} */
+
+.boy-list {
+    list-style: none;
 }
 
 .boy-img {
   width: 150px;
   border-radius: 50%;
 }
+
