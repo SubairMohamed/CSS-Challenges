@@ -42,13 +42,21 @@ body {
 
 .boy-list {
     list-style: none;
-    padding: 0 0 2rem 0;
+    width: 160px;
+    height: 160px;
+    background: var(--color-text);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boy-img {
   width: 150px;
   border-radius: 50%;
-  border: 6px solid var(--bg-gradient-3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ends boy */
