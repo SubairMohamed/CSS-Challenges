@@ -86,7 +86,7 @@ body {
 .girl-img {
   width: 150px;
   border-radius: 50%;
-  border: 6px solid var(--bg-gradient-3);
+  border: 6px solid var(--bg-border);
 }
 
 /* ends girl */
