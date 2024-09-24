@@ -35,6 +35,13 @@ body {
     list-style: none;
 }
 
+.img-wrapper {
+    width: 160px;
+    height: 160px;
+    background: var(--color-text);
+    border-radius: 50%;
+}
+
 .img {
     width: 150px;
     height: 150px;
