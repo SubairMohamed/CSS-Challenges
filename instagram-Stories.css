@@ -24,3 +24,7 @@ html {
     height: 150px;
     border-radius: 50%;
 }
+
+.name {
+    font-size: 3rem;
+}
