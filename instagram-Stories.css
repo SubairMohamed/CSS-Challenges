@@ -63,3 +63,6 @@ body {
     padding: 2.5rem 0 0 0;
 }
 
+.viewed > .img-wrapper {
+    background: var(--bg-border);
+}
