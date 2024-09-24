@@ -67,7 +67,12 @@ body {
     background: var(--bg-border);
 }
 
-.live:after {
+.live::after {
     content: "live";
-    color: white;
+    color: var(--color-text);
+    font-family: "karla", sans-serif;
+    font-size: 2rem;
+    text-transform: capitalize;
+    background: var(--bg-live);
+    padding: .2rem .6rem;
 }
