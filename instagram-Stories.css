@@ -19,6 +19,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    background: var(--bg-body);
+}
+
 .img {
     width: 150px;
     height: 150px;
@@ -27,4 +31,6 @@ html {
 
 .name {
     font-size: 3rem;
+    color: var(--color-text);
+    text-transform: capitalize;
 }
