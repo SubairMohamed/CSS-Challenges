@@ -37,6 +37,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .img-wrapper {
@@ -75,4 +76,8 @@ body {
     text-transform: capitalize;
     background: var(--bg-live);
     padding: .2rem .6rem;
+    border-radius: 8px;
+    border: 2px solid var(--bg-body);
+    position: absolute;
+    top: 65%;
 }
