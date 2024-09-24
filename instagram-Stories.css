@@ -1,9 +1,10 @@
 :root {
     --bg-body: #000;
-    --bg-gradient-1: #dc9a20cd;
-    --bg-gradient-2: #1212a8ab;
-    --bg-gradient-3: #b4155fdf;
-    --bg-gradient-4: #ff6a00cf;
+    --bg-gradient-1: #feda75;
+    --bg-gradient-2: #fa7e1e;
+    --bg-gradient-3: #d62976;
+    --bg-gradient-4: #962fbf;
+    --bg-gradient-5: #4f5bd5;
     --bg-border: #808080;
     --color-text: #ffffff;
     --bg-live: #cf4242;
@@ -44,7 +45,7 @@ body {
     list-style: none;
     width: 160px;
     height: 160px;
-    background: var(--color-text);
+    background: linear-gradient(to top right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
     border-radius: 50%;
     display: flex;
     justify-content: center;
