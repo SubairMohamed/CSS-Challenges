@@ -40,6 +40,9 @@ body {
     height: 160px;
     background: var(--color-text);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img {
