@@ -19,3 +19,8 @@ html {
     font-size: 62.5%;
 }
 
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
