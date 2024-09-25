@@ -10,3 +10,14 @@
     margin: 0;
     padding: 0;
 }
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background: var(--bg-square-default);
+}
