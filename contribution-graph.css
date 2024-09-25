@@ -1,4 +1,7 @@
 :root {
-    --bg-square: #008000;
+    --bg-square-default: #084c08;
+    --level-3: #006400;
+    --level-5: #008000;
+    --level-10: lightgreen;
     --bg-null: #808080;
 }
