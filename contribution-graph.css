@@ -2,13 +2,17 @@
     --bg-square-default: #084c08;
     --level-3: #006400;
     --level-5: #008000;
-    --level-10: lightgreen;
-    --bg-null: #808080;
+    --level-10: #90ee90;
+    --bg-null: #171515;
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background: gray;
 }
 
 ul {
@@ -19,6 +23,7 @@ ul {
 .graph {
     display: grid;
     grid-template-columns: repeat(52, 1fr);
+    margin: 2em auto;
 }
 
 .square {
@@ -28,4 +33,20 @@ ul {
     margin: 3px;
     margin-right: 0;
     border-radius: 2px;
+}
+
+[data-value="3"] {
+    background: var(--level-3);
+}
+
+[data-value="10"] {
+    background: var(--level-10);
+}
+
+[data-value="5"] {
+    background: var(--level-5);
+}
+
+[data-value="0"] {
+    background: var(--bg-null);
 }
