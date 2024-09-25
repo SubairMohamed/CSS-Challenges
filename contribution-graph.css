@@ -16,8 +16,16 @@ ul {
     list-style: none;
 }
 
+.graph {
+    display: grid;
+    grid-template-columns: repeat(52, 1fr);
+}
+
 .square {
     width: 10px;
     height: 10px;
     background: var(--bg-square-default);
+    margin: 3px;
+    margin-right: 0;
+    border-radius: 2px;
 }
