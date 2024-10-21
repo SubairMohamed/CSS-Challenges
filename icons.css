@@ -6,6 +6,7 @@
 i {
     font-size: 2rem;
     padding: 0 0 0 1.3rem;
+    animation: swap 10s infinite;
 }
 
 .container {
@@ -16,4 +17,16 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@keyframes swap {
+    50% {
+        transform: translateX(600%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-600%);
+        opacity: 1;
+    }
 }
