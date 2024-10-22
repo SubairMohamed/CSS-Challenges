@@ -3,10 +3,14 @@
     padding: 0;
 }
 
+body {
+    background-color: gray;
+}
+
 i {
     font-size: 2rem;
     padding: 0 0 0 1.3rem;
-    animation: swap 10s infinite;
+    /* animation: swap 10s infinite; */
 }
 
 .container {
@@ -17,6 +21,11 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.content {
+    width: 100%;
+    background: white;
 }
 
 @keyframes swap {
