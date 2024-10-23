@@ -20,6 +20,7 @@ i {
     letter-spacing: 40px;
     white-space: nowrap;
     overflow: hidden;
+    position: relative;
 }
 
 .logos-slider {
@@ -34,6 +35,16 @@ i {
 
 .logos:hover .logos-slider {
     animation-play-state: paused;
+}
+
+.logos::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 30vh;
+    background: gray;
+    content: "";
 }
 
 @keyframes slide {
