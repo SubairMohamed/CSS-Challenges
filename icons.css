@@ -18,3 +18,11 @@ i {
     background: white;
     margin: 10rem auto;
 }
+
+.logos-slider {
+    padding: 1.5rem 0;
+}
+
+.logos-slider i {
+    padding: 0 .4rem;
+}
