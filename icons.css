@@ -17,13 +17,14 @@ i {
     height: 30vh;
     background: white;
     margin: 10rem auto;
+    letter-spacing: 40px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .logos-slider {
-    padding: 1.5rem 0;
+    display: inline-block;
     animation: 5s slide infinite linear;
-    display: flex;
-    justify-content: center;
 }
 
 .logos-slider i {
