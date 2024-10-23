@@ -11,3 +11,10 @@ body {
 i {
     font-size: 3rem;
 }
+
+.logos {
+    width: 30%;
+    height: 30vh;
+    background: white;
+    margin: 10rem auto;
+}
