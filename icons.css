@@ -32,6 +32,10 @@ i {
     padding: 0 .4rem;
 }
 
+.logos:hover .logos-slider {
+    animation-play-state: paused;
+}
+
 @keyframes slide {
     from {
         transform: translateX(0);
