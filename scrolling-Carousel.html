@@ -17,23 +17,35 @@
             <i class="fab fa-css3"></i>
             <i class="fab fa-angular"></i>
             <i class="fab fa-node"></i>
-        </div>
-        <div class="logos-slider">
-            <i class="fab fa-react"></i>
-            <i class="fab fa-js"></i>
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3"></i>
-            <i class="fab fa-angular"></i>
-            <i class="fab fa-node"></i>
-        </div>
-        <div class="logos-slider">
-            <i class="fab fa-react"></i>
-            <i class="fab fa-js"></i>
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3"></i>
-            <i class="fab fa-angular"></i>
-            <i class="fab fa-node"></i>
-        </div>
+        </div> 
     </div>
+
+    <script> 
+        // we can make three ways to duplicate 
+            // event like click method
+            // without event
+            // loop 
+       $(document).ready(function () {
+
+       let copy = $(".logos-slider").clone();
+       $(".logos").append(copy);
+
+       });
+    </script>
 </body>
 </html>
+
+<!-- var originalElement = $('.original');
+    var container = $('#container');
+    var numberOfCopies = 5; // Change this to the number of copies you want
+
+    for (var i = 0; i < numberOfCopies; i++) {
+        var clone = originalElement.clone();
+        
+        // Optionally modify the clone
+        clone.attr('id', 'clone-' + i);
+        clone.find('span').text('Copy ' + (i + 1));
+        
+        // Append the clone to the container
+        container.append(clone);
+    } -->
