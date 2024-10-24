@@ -26,26 +26,26 @@
             // without event
             // loop 
        $(document).ready(function () {
+        // without event
+       //let copy = $(".logos-slider").clone();
+       //$(".logos").append(copy);
 
-       let copy = $(".logos-slider").clone();
-       $(".logos").append(copy);
+       // Loop
+       let original = $(".logos-slider");
+       let parent = $(".logos");
+       let numOfCopies = 4;
+
+       for (let i = 0; i < numOfCopies; i++) {
+        let clone = original.clone();
+        parent.append(clone);
+       }
 
        });
     </script>
+
+    <!-- vanila js -->
+    <!-- var copy = document.querySelector(".logos-slide").cloneNode(true);
+    document.querySelector(".logos").appendChild(copy); -->
 </body>
 </html>
 
-<!-- var originalElement = $('.original');
-    var container = $('#container');
-    var numberOfCopies = 5; // Change this to the number of copies you want
-
-    for (var i = 0; i < numberOfCopies; i++) {
-        var clone = originalElement.clone();
-        
-        // Optionally modify the clone
-        clone.attr('id', 'clone-' + i);
-        clone.find('span').text('Copy ' + (i + 1));
-        
-        // Append the clone to the container
-        container.append(clone);
-    } -->
