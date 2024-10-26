@@ -17,25 +17,14 @@ h1 {
 
 h1::after {
     content: "";
-    /* animation: 6s swap infinite; */
-    background: blue;
-    color: white;
+    animation: 6s swap infinite;
+    color: black;
     padding: .5rem .2rem;
     border-radius: 10px;
     margin-left: .5rem;
 }
 
-@keyframes translate {
-    from {
-        transform: translate(34px, -100px);
-    }
-
-    to {
-        transform: translate(50px, -6px);
-    }
-}
-
-/* @keyframes swap {
+@keyframes swap {
     0% {
         content: " MERN Stack";
     }
@@ -55,4 +44,4 @@ h1::after {
     100% {
         content: " MERN Stack";
     }
-} */
+}
