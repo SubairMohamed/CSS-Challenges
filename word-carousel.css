@@ -10,11 +10,6 @@ html, body {
     align-items: center;
 }
 
-h1 {
-    transform: translate(34px, -100px);
-    animation: translate 5s infinite;
-}
-
 h1::after {
     content: "";
     animation: 6s swap infinite;
