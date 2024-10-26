@@ -10,10 +10,14 @@ html, body {
     align-items: center;
 }
 
+h1 {
+    transform: translate(34px, -100px);
+    animation: translate 5s infinite;
+}
 
 h1::after {
     content: "";
-    animation: 6s swap infinite;
+    /* animation: 6s swap infinite; */
     background: blue;
     color: white;
     padding: .5rem .2rem;
@@ -21,7 +25,17 @@ h1::after {
     margin-left: .5rem;
 }
 
-@keyframes swap {
+@keyframes translate {
+    from {
+        transform: translate(34px, -100px);
+    }
+
+    to {
+        transform: translate(50px, -6px);
+    }
+}
+
+/* @keyframes swap {
     0% {
         content: " MERN Stack";
     }
@@ -41,4 +55,4 @@ h1::after {
     100% {
         content: " MERN Stack";
     }
-}
+} */
